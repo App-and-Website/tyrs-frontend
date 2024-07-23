@@ -562,21 +562,21 @@ input {
 }
 
 .default-padding {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 .default-padding-top {
-	padding-top: 120px;
+	padding-top: 80px;
 }
 
 .default-padding-bottom {
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 
 .default-padding.bottom-less {
-	padding-top: 120px;
-	padding-bottom: 90px;
+	padding-top: 80px;
+	padding-bottom: 60px;
 }
 
 .default-padding-bottom.bottom-less {
@@ -8973,6 +8973,9 @@ nav.navbar.bootsnav ul.nav>li>a {
 		padding: 0px 25px 25px 10px!important;
 		text-align: left;
 	}	
+	.small_hide_br{
+		display: none;
+	}
 }
 @media screen and (max-width: 420px) {
 	.fmaily_business img{
@@ -8982,12 +8985,40 @@ nav.navbar.bootsnav ul.nav>li>a {
 	.experience_text h4{
 		font-size: 19px;
 	}
-	.title_yellow{
-		font-size: 28px;
-	}	
 }
 /* about css ends */
 
+
+/* Services css starts */
+.services_area{
+  background: #fdefe8;
+}
+.section_heading h4, .section_heading h2{
+	color: #f37137;
+}
+.section_heading .devider, .section_heading .devider::before{
+	background: #f37137;
+}
+.service_item{
+	background: #fff;
+	margin-bottom: 30px!important;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.service_item img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.service_item h4{
+	font-size: 20px;
+	padding: 20px 10px!important;
+}
+
+
+
+/* Services css ends */
 
 /* footer css starts */
 .footer_main p, .footer_main a{
@@ -9017,3 +9048,4 @@ footer .footer-bottom-box {
 		padding: 10px!important;
 	}
 }
+/* footer css ends */
