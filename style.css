@@ -9043,9 +9043,18 @@ footer .footer-bottom-box {
 .foot_bottom_content a:hover{
 	color:  #ccc!important;
 }
+.small_show_br{
+   display: none;
+}
 @media screen and (max-width: 768px) {
 	footer .footer-bottom-box {
 		padding: 10px!important;
 	}
 }
+@media screen and (max-width: 480px) {
+	.small_show_br{
+		display: block;
+	 }
+}
+
 /* footer css ends */
