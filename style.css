@@ -8830,6 +8830,11 @@ nav.navbar.bootsnav ul.nav>li>a {
         padding: 12px 12px !important;
     }
 }
+@media (min-width: 1024px) and (max-width: 1200px) {
+    nav.navbar.bootsnav.sticked ul.nav>li>a {
+        padding: 12px !important;
+    }
+}
 /* header css ends */
 
 
@@ -9124,6 +9129,112 @@ nav.navbar.bootsnav ul.nav>li>a {
 	color: #f37137;
 }
 /* No.1 section css ends */
+
+
+/* Areas we service starts */
+.service_areas_main{
+	background-color:#f37137;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.right_map{
+	padding: 0;
+}
+.service_areas_main h2{
+	background: #fff;
+	color: #000;
+	width: fit-content;
+	padding: 10px 60px 10px 40px;
+	margin-left: -40px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.map_image_home{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+.map_image_home img{
+	max-height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.service_areas_main p{
+	color: #fff;
+}
+.service_area_item{
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	background: #fff;
+	margin-top: 20px;
+	border-radius: 25px;
+	padding: 8px 25px;
+}
+.service_area_item span{
+	font-size: 20px;
+    color: #1a1b27;
+	font-weight: 600;
+}
+.service_area_item i{
+	font-size: 20px;
+    color: #1a1b27;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+	.service_areas{
+        display: flex;
+		gap: 25px;
+		padding-bottom: 32px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.service_areas_main p{
+		text-align: left;
+		margin-top: -25px!important;
+		margin-bottom: -5px!important;
+	}
+	.service_areas_main h2{
+		background: #f37137;
+		color: #fff;
+		width: 100%;
+		margin-top: 25px;
+		padding-right: 0;
+		text-align: left;
+	}
+}
+@media screen and (max-width: 576px) {
+	.service_areas_main{
+		border-radius: 0px;
+	}
+	.service_areas{
+        display: block;
+	}
+}
+/* Areas we service ends */
+
+
+/* Blog and FAQ starts */
+.blog_items img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+	.faq_second_column{
+      margin-top: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+.section_heading h2{
+	font-size: 32px!important;
+}
+}
+/* Blog and FAQ starts */
 
 
 /* footer css starts */
