@@ -9028,9 +9028,50 @@ nav.navbar.bootsnav ul.nav>li>a {
 /* about css ends */
 
 
+/* cta  css  starts */
+.cta_row_single_service{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(assets/img/images/ctabg.jpeg);
+	background-size: cover;
+	padding: 40px;
+	border-radius: 12px;
+	text-align:center;
+	display: flex;
+	justify-content: center;
+}
+.cta_content h2{
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 5px 5px 25px #000;
+}
+.cta_content p{
+	color: #fff;
+	text-shadow: 3px 3px 9px #000;
+}
+.cta_row_single_service .button_cta{
+	margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+	.cta_row_single_service{
+		padding: 20px 0px;
+	}
+	.cta_content h2{
+		font-size: 28px;
+	}
+	.cta_row_single_service .button_cta{
+		display: flex;
+		justify-content: center;
+	}
+	.cta_row_single_service .button_cta a{
+		width: fit-content;
+		padding: 8px 24px;
+	}
+}
+/* cta  css  ends */
+
+
 /* Services css starts */
 .services_area{
-  background: #fdefe8;
+  /* background: #fdefe8; */
 }
 .section_heading h4, .section_heading h2{
 	color: #f37137;
