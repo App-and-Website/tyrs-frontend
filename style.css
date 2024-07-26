@@ -9103,6 +9103,29 @@ nav.navbar.bootsnav ul.nav>li>a {
 /* Services css ends */
 
 
+/* No.1 section css starts */
+.no1_items .item {
+    margin-top: 30px;
+    padding: 40px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 25px rgb(0 0 0 / 8%);
+    border-radius: 8px;
+}
+.no1_items img {
+	background: #fff6f3;
+	margin-bottom: 10px;
+    height: 90px;
+    width: 90px;
+    padding: 20px;
+    box-shadow: 0 0px 0px 0 rgb(44 130 237 / 40%);
+    border-radius: 5px;
+}
+.no1_items h4 a{
+	color: #f37137;
+}
+/* No.1 section css ends */
+
+
 /* footer css starts */
 .footer_main p, .footer_main a{
 	color: #f0eeee!important;
