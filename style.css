@@ -9236,6 +9236,8 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 /* Blog and FAQ starts */
 
+
+/* Contact page and forms css starts */
 .contact-content .content i {
 	color: #f37137;
 }
@@ -9252,6 +9254,18 @@ nav.navbar.bootsnav ul.nav>li>a {
 .contact_page_image1 img{
 	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
+.contact-content form .selection_form_item{
+    border: none;
+    background: #eef3fa!important;
+	color: #6c757d;
+}
+.blog_details_image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+/* Contact page and forms css ends */
+
 
 /* footer css starts */
 .footer_main p, .footer_main a{

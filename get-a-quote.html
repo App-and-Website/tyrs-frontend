@@ -190,10 +190,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <h1>Contact Us</h1>
+                    <h1>Get Started With Rubbish Removal</h1>
                     <p>Make a fresh start with us to get services like Furniture Removal, Household Rubbish Removal,  Industrial Waste Removal, Business & Commercial Rubbish Removal, Garden Rubbish Removal, Renovation Waste Removal, and Asbestos Services based on your needs. </p>
                     <div class="button button_cta pt-3">
-                        <a class="button_custom header_free_quote button_custom_site" href="#">Get Free Quote</a>
+                        <a class="button_custom header_free_quote button_custom_site" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -202,50 +202,29 @@
     <!-- End Breadcrumb -->
 
 
-    <!-- Start Contact Area 
+    <!-- Free Quote Area 
     ============================================= -->
     <div id="contact" class="contact-area default-padding">
         <div class="container">
             <div class="contact-content">
                 <div class="row">
-                    <div class="col-lg-4 info">
-                        <div class="content text-light text-center">
-                            <div class="thumb contact_page_image1">
-                                <img src="assets/img/images/contac-page.jpeg" alt="Thumb">
-                            </div>
-                            <ul>
-                                <li>
-                                    <i class="fal fa-map-marker-alt"></i>
-                                    <p>
-                                        2B Hope St , <br>Ermington, NSW, 2115
-                                    </p>
-                                </li>
-                                <li>
-                                    <i class="fal fa-phone-alt"></i>
-                                    <p>
-                                       <a href="tel:0458 802 474"> 0458 802 474</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <i class="fas fa-envelope"></i>
-                                    <p>
-                                       <a href="mailto:info@takeyourrubbishsydney.com.au"> info@takeyourrubbishsydney.com.au</a>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 contact-form-box">
+                    <div class="col-lg-12 contact-form-box">
                         <div class="form-box">
-                            <h2>Let's talk?</h2>
+                            <h2>Get a Quote</h2>
                             <p>
-                               Contact us for any type of rubbish removal and asbestos services. Our team will reach out to you back as soon as possible.
+                               Fill up the form below and submit us to get a free quote. Our team will reach out to you as soon as possible to understand your requirements.
                             </p>
                             <form action="assets/mail/contact.php" method="POST" class="contact-form">
                                 <div class="row">
-                                    <div class="col-lg-12">
+                                    <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input class="form-control" id="name" name="name" placeholder="Name" type="text">
+                                            <input class="form-control" id="fname" name="fname" placeholder="First Name" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="lname" name="lname" placeholder="Last Name" type="text">
                                             <span class="alert-error"></span>
                                         </div>
                                     </div>
@@ -265,6 +244,55 @@
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="address" name="address" placeholder="Address" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input class="form-control" id="suburb" name="suburb" placeholder="Suburb" type="text">
+                                            <span class="alert-error"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <select class="selection_form_item">
+                                                <option value="">Select Enquiry Type</option>
+                                                <option value="Obligation Free Quote">Obligation Free Quote</option>
+                                                <option value="Rubbish Removal Service">Rubbish Removal Service</option>
+                                                <option value="Asbestos Service">Asbestos Service</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <select class="selection_form_item">
+                                                <option value="">How did you learn about us?</option>
+                                                <option value="Google">Google</option>
+                                                <option value="Rubbish Removal Service">Facebook</option>
+                                                <option value="Word of Mouth">Word of Mouth</option>
+                                                <option value="Truck">Truck</option>
+                                                <option value="Yellow Pages">Yellow Pages</option>
+                                                <option value="Brochure">Brochure</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 py-3">
+                                        <label for="file" class="pl-4"><strong>Attach Photos</strong></label>
+                                        <div class="form-group comments">
+                                            <input type="file" class="w-100" multiple>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group comments">
                                             <textarea class="form-control" id="comments" name="comments" placeholder="Message"></textarea>
@@ -274,7 +302,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <button type="submit" name="submit" id="submit">
-                                            Send Message
+                                            Submit
                                         </button>
                                     </div>
                                 </div>
@@ -289,46 +317,7 @@
             </div>
         </div>
     </div>
-    <!-- End Contact Area -->
-
-
-    <!-- Start Areas We Serve 
-    ============================================= -->
-    <div class="about-us-area overflow-hidden default-padding pt-3 mb-4">
-        <div class="container">
-            <div class="about-items">
-                <!-- End Shape -->
-                <div class="row align-center service_areas_main">
-                    <div class="col-xl-7 info">
-                        <h2> Areas We Service</h2>
-                        <p>
-                            'Take your rubbish Sydney' is conveniently located to service all of the greater Sydney area. Along with Sydney we provide our services in Wollongong and Newcastle also. Just give us a call to experience our professional service and, we will be there to pickup your rubbish with no delay in time. No matter what type of junk you need to clean up, whether it's industrial waste, e-waste, household rubbish, office strip out or any other; we are keen to keep your surroundings clean, thereby wants to keep environment pure.
-                        </p>
-                        <div class="service_areas">
-                            <div class="service_area_item">
-                                <i class="fal fa-map-marker-alt"></i>
-                                <span>Sydney</span>
-                            </div>
-                            <div class="service_area_item">
-                                <i class="fal fa-map-marker-alt"></i>
-                                <span>Wollongong</span>
-                            </div>
-                            <div class="service_area_item">
-                                <i class="fal fa-map-marker-alt"></i>
-                                <span>Newcastle</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-5 right_map">
-                        <div class="image map_image_home">
-                            <img src="assets/img/images/map-tyrs.jpeg" alt="Map Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Areas We Serve -->
+    <!-- End Free Quote Area -->
 
     
     <!-- Start Footer 
@@ -456,6 +445,7 @@
     </footer>
     <!-- End Footer -->
     
+
     <!-- jQuery Frameworks
     ============================================= -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -477,6 +467,7 @@
     <script src="assets/js/jquery.twentytwenty.js"></script>
     <script src="assets/js/bootsnav.js"></script>
     <script src="assets/js/main.js"></script>
+
 
 </body>
 </html>
