@@ -9236,6 +9236,22 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 /* Blog and FAQ starts */
 
+.contact-content .content i {
+	color: #f37137;
+}
+.contact-content form button {
+    color: #fff;
+}
+.contact-content form button::after {
+    color: #fff;
+    background-color: #f37137;
+}
+.contact-content form button:hover::after {
+    background: #f5a700!important;
+}
+.contact_page_image1 img{
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
 
 /* footer css starts */
 .footer_main p, .footer_main a{
