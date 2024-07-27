@@ -9251,13 +9251,6 @@ nav.navbar.bootsnav ul.nav>li>a {
 .contact-content form button {
     color: #fff;
 }
-.contact-content form button::after {
-    color: #fff;
-    background-color: #f37137;
-}
-.contact-content form button:hover::after {
-    background: #f5a700!important;
-}
 .contact_page_image1 img{
 	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
@@ -9265,13 +9258,37 @@ nav.navbar.bootsnav ul.nav>li>a {
     border: none;
     background: #eef3fa!important;
 	color: #6c757d;
+	border-radius: 4px;
 }
 .blog_details_image img{
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
+.free_quote_outer{
+	background: #f37137;
+	padding: 50px 40px;
+	border-radius: 6px;
+}
+.free_quote_outer h2{
+	color: #fff;
+}
+.free_quote_outer p, .free_quote_outer label{
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+}
+.free_quote_outer .upload_input{
+	border-radius: 4px;
+}
+.free_quote_outer button::after{
+	background: #1a1b27!important;
+}
+.free_quote_outer button:hover{
+	background: #252635!important;
+}
 /* Contact page and forms css ends */
+
 
 
 /* footer css starts */
@@ -9313,5 +9330,4 @@ footer .footer-bottom-box {
 		line-height: 20px;
 	}
 }
-
 /* footer css ends */
