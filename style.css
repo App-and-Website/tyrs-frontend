@@ -9290,6 +9290,24 @@ nav.navbar.bootsnav ul.nav>li>a {
 /* Contact page and forms css ends */
 
 
+.image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.customized_row p{
+    text-align: left;
+}
+@media screen and (max-width: 992px) {
+	.customized_row2{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.customized_row2 h2{
+		text-align: left;
+	}
+}
+
 
 /* footer css starts */
 .footer_main p, .footer_main a{
