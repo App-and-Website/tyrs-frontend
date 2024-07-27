@@ -9228,6 +9228,9 @@ nav.navbar.bootsnav ul.nav>li>a {
 	.faq_second_column{
       margin-top: 30px;
 	}
+	.width_mainteinaed{
+		width: fit-content!important;
+	}
 }
 @media screen and (max-width: 768px) {
 .section_heading h2{
@@ -9236,6 +9239,10 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 /* Blog and FAQ starts */
 
+.breadcrumb_button{
+	display: flex;
+	justify-content: center;
+}
 
 /* Contact page and forms css starts */
 .contact-content .content i {
@@ -9302,6 +9309,9 @@ footer .footer-bottom-box {
 	.small_show_br{
 		display: block;
 	 }
+	 footer .footer-bottom p {
+		line-height: 20px;
+	}
 }
 
 /* footer css ends */
