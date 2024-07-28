@@ -8769,6 +8769,9 @@ nav.navbar.bootsnav ul.nav>li>a {
 ================================================================================== */
 
 /* topbar css starts */
+.top-bar-area{
+ background: #d86631;
+}
 .top-bar-area .container-full {
     padding: 0 20px;
 }
@@ -9075,9 +9078,6 @@ nav.navbar.bootsnav ul.nav>li>a {
 
 
 /* Services css starts */
-.services_area{
-  /* background: #fdefe8; */
-}
 .section_heading h4, .section_heading h2{
 	color: #f37137;
 }
@@ -9309,6 +9309,83 @@ nav.navbar.bootsnav ul.nav>li>a {
 }
 
 
+/* service page css starts */
+.appoinment-area{
+	overflow: visible;
+}
+.service_page_form .form-items{
+	background: #f37137;
+	overflow: visible;
+}
+.service_page_form .form-items h2{
+	margin-bottom: 20px;
+	color: #fff;
+}
+.service_page_form .form-items button::after{
+	background: #1a1b27!important;
+}
+.service_page_form .form-items button{
+	color: #fff!important;
+}
+.appoinment-area .service_page_form .form-items .service_select{
+	border-radius: 4px;
+}
+.service_page_list li{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+.service_page_why_choose_middle .fmaily_business{
+	display: flex;
+	flex-direction: column;
+	padding: 16px 0 8px 0;
+}
+.service_page_why_choose .item{
+    background: #fff;
+	text-align: left;
+	padding: 25px;
+	position: relative;
+}
+.service_page_why_choose .item .num{
+	position: absolute;
+	height: 50px!important;
+	width: 50px!important;
+	top: 0px;
+	right: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 32px;
+	color: #fff;
+	font-weight: 600;
+	background: #f37137;
+}
+.service_introform_area{
+	overflow: visible!important;
+}
+
+@media screen and (max-width: 992px) {
+	.appoinment-area .service_page_form .form-items {
+		margin: 50px 0;
+		margin-bottom: 0px;
+	}
+	.service_page_intro{
+		margin-bottom: 40px;
+	}
+	.service_page_why_choose .item{
+		padding: 20px!important;
+	}
+    .features-area .single-item.award {
+        margin: 45px 0 0 0 !important;
+    }
+}
+@media screen and (max-width: 992px) {
+	.service_page_list{
+		text-align: left;
+	}
+}
+/* service page css ends */
+
+
 /* footer css starts */
 .footer_main p, .footer_main a{
 	color: #f0eeee!important;
@@ -9320,7 +9397,7 @@ nav.navbar.bootsnav ul.nav>li>a {
 	color: #f37137;
 }
 .footer_bottom_custom{
-	background: #f37137!important;
+	background: #d86631!important;
 }
 footer .footer-bottom-box {
 	padding: 10px 0;
