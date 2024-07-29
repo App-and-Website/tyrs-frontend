@@ -9409,9 +9409,53 @@ footer .footer-bottom-box {
 .small_show_br{
    display: none;
 }
+.footer_social_links{
+	display: flex;
+}
+.footer_social_links li a i{
+	font-size: 16px!important;
+}
+
+.social_section{
+	margin-bottom: 50px;
+}
+.social_contact_row{
+	background: #fff6f2;
+	border-radius: 12px;
+	padding: 50px 40px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.contact_page_social_links{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+.social_contact_row h2{
+	font-weight: 600;
+}
+.contact_page_social_links a i{
+	font-size: 22px;
+	color: #f37137;
+	height: 40px;
+	width: 40px;
+	background: #ffe5d8;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 @media screen and (max-width: 768px) {
 	footer .footer-bottom-box {
 		padding: 10px!important;
+	}
+	.social_contact_row{
+		border-radius: 0px;
+		padding: 40px 10px;
+	}
+	.social_section{
+		margin-bottom: -10px;
 	}
 }
 @media screen and (max-width: 480px) {
